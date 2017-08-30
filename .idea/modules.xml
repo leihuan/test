@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleMapDemo/googleMapDemo.iml" filepath="$PROJECT_DIR$/googleMapDemo/googleMapDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postnumbersearch/postnumbersearch.iml" filepath="$PROJECT_DIR$/postnumbersearch/postnumbersearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+    </modules>
+  </component>
+</project>

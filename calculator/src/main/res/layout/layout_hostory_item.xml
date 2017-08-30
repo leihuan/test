@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin"
+    android:layout_margin="@dimen/defalut_2"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/up_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            style="@style/info_text"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="涂料计算" />
+
+        <TextView
+            android:id="@+id/result_count"
+            style="@style/info_text"
+            android:layout_weight="1"
+            android:text="数量：30米" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/time"
+            style="@style/info_text"
+            android:layout_weight="1"
+            android:textColor="@color/font_gray"
+            android:text="2017/2/13" />
+
+        <TextView
+            android:id="@+id/result_price"
+            style="@style/info_text"
+            android:layout_weight="1"
+            android:text="价格：100元" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/next_arrow"
+        android:layout_width="30dp"
+        android:padding="@dimen/default_margin"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rightarrow"/>
+
+</LinearLayout>

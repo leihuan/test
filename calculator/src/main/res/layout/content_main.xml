@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/light_gray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hh.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/coating_calculation_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_weight="1"
+            android:background="@drawable/main_cocating_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/coating_calculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coating_calculation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/floor_calculation_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:background="@drawable/main_floor_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/floor_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/floor_calculator"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/wall_calculation_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_weight="1"
+            android:background="@drawable/main_wall_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wall_calculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/wall_calculation"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wallpaper_calculation_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:background="@drawable/main_wallpaper_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wallpaper_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/wallpaper_calculator"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/floor_tile_calculation_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_weight="1"
+            android:background="@drawable/main_floor_tile_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/floor_tile_calculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/floor_tile_calculation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/curtain_calculator_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/block_height"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:background="@drawable/main_curtain_bg"
+            android:elevation="@dimen/shadow_value"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/curtain_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/curtain_calculator"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_middle" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
