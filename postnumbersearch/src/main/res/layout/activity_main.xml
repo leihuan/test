@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_bg"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/adr"
+        android:layout_below="@id/title"
+        android:layout_width="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_address_selector"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="地址查询邮编"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/post_number"
+        android:layout_below="@id/adr"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_postnumber_selector"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="邮编查询地址"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/one_key_search"
+        android:layout_below="@id/post_number"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_onekey_selector"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="当前位置一键查询"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <!--<com.example.postnumbersearch.BannerView-->
+        <!--android:id="@+id/banner_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--/>-->
+
+
+</RelativeLayout>

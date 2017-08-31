@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ikzDmA7vDdG8pFOiUWzCfvRuYG7jjUmL"></script>
+	<link href="../css/baiduMap.css" rel="stylesheet">
+	<title>地图展示</title>
+</head>
+<body>
+<div id="r-result">
+	<input  id="suggestId"; onchange ="inputOnChange()" />
+	<button id="search_btn" type="button" onclick="onSearchInfo()">查询</button>
+	<img id="search_icon" src="../img/search_icon.png" />
+	<img id="clear" src="../img/delete_icon.png" style="display: none" onclick="onClearClick()" />
+</div>
+<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:70%;height:auto; display:none;" ></div>
+<div id="allmap"></div>
+<div id="waiting" style="display: none">
+	<div id="imgWrap">
+		<img class="circle_run loadImg" src="../img/loading.png" alt=""/>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/mapControlAddressSearch.js"></script>

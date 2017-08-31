@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin"
+    android:layout_marginTop="@dimen/defalut_2"
+    android:layout_marginBottom="@dimen/defalut_2"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/post_number"
+        style="@style/info_text"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:text="629104" />
+    <TextView
+        android:id="@+id/province"
+        style="@style/info_text"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="四川省" />
+
+    <TextView
+        android:id="@+id/city"
+        style="@style/info_text"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="遂宁市" />
+    <TextView
+        android:id="@+id/district"
+        style="@style/info_text"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="蓬溪县" />
+    <TextView
+        android:id="@+id/avenue"
+        style="@style/info_text"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:text="常乐镇高层山村" />
+
+</LinearLayout>

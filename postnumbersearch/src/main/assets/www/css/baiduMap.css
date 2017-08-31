@@ -1,0 +1,96 @@
+body, ul, li, h1, h2, h3, h4, h5, h6, input, p {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#head {
+	width: 100%;
+	height: 7%;
+	overflow: hidden;
+	background: #4ad8e4;
+	text-align: center;
+}
+
+
+#r-result {
+	width: 100%;
+	height: 50px;
+	background: #f0f0f0;
+}
+#suggestId{
+	position: relative;
+	width: 68%;
+	height: 60%;
+	margin-top: 9.5px;
+	margin-left: 2.0%;
+	border-radius: 5px;
+	float: left;
+	outline: #c0c0c0;
+	padding-left: 6%;
+	padding-right: 6%;
+    border: #959595;
+    border-width:10px; 
+}
+#search_btn{
+	position: relative;
+	width: 14%;
+	height: 60%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 9.5px;
+	background-image: url("../img/search_btn.png");
+	font-size: 0.9rem;
+}
+
+#search_icon {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 17.5px;
+	left: 3%;
+	z-index: 50;
+}
+
+#clear{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 17.5px;
+	right: 19%;
+	z-index: 50;
+
+}
+
+#allmap{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.circle_run{
+	-webkit-animation: circle 2.5s linear infinite;
+	-moz-animation: circle 2.5s linear infinite;
+	-o-animation: circle 2.5s linear infinite;
+	animation: circle 2.5s linear infinite;
+}
+@-webkit-keyframes circle{
+	from{ -webkit-transform:rotate(0deg)}
+	25%{-webkit-transform:rotate(-90deg)}
+	50%{-webkit-transform:rotate(-180deg)}
+	75%{-webkit-transform:rotate(-270deg)}
+	100%{-webkit-transform:rotate(-360deg)}
+}
+
+#waiting{width: 100%;height: 100%;position: absolute;top:0px;line-height: 200%;z-index: 90;display: block;}
+#imgWrap{width: 135px;height:75px;margin:270px auto;border-radius:10px;background: #000000;opacity: 0.7;overflow: hidden;}
+.loadImg{
+	display: block;margin: 13px auto;width: 50px;
+}
+
+
+
